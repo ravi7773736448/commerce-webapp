@@ -19,8 +19,8 @@ const Login = () => {
     setLoading(true);
 
     const url = isRegister
-      ? "http://localhost:5000/api/register"
-      : "http://localhost:5000/api/login";
+      ? "https://commerce-webapp.onrender.com/api/register"
+      : "https://commerce-webapp.onrender.com/api/login";
 
     try {
       const response = await fetch(url, {
