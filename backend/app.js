@@ -7,7 +7,7 @@ const cors = require("cors");
 
 const app = express();
 app.use(express.json());
-app.use(cors("https://commerce-nine-beige.vercel.app/"));
+app.use(cors("https://whizrobo-uvjw.vercel.app/"));
 
 // Connect to MongoDB
 mongoose
